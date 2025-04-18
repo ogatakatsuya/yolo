@@ -1,18 +1,11 @@
-[tool.poetry]
+[project]
 name = "yolo"
 version = "0.1.0"
-description = ""
-authors = ["Ogata Katsuya <130939004+ogatakatsuya@users.noreply.github.com>"]
+description = "Add your description here"
 readme = "README.md"
-package-mode = false
-
-[tool.poetry.dependencies]
-python = "^3.10"
-streamlit = "^1.44.1"
-ultralytics = "^8.3.107"
-pillow = "^11.2.1"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "pillow>=11.2.1",
+    "streamlit>=1.44.1",
+    "ultralytics>=8.3.111",
+]
